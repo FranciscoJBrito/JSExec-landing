@@ -14,21 +14,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "JSExec - The Ultimate JavaScript & TypeScript Playground",
+  title: "WizardJS - The Ultimate JavaScript & TypeScript Playground",
   description: "Open source alternative to RunJS. Complete JavaScript and TypeScript playground with Monaco Editor, real-time execution, and advanced features. Download for macOS, Windows, and Linux.",
-  keywords: ["javascript", "typescript", "playground", "editor", "runjs", "monaco", "electron", "open source"],
+  keywords: ["javascript", "typescript", "playground", "editor", "runjs", "monaco", "electron", "open source", "wizardjs"],
   authors: [{ name: "Francisco Brito", url: "https://github.com/FranciscoJBrito" }],
   creator: "Francisco Brito",
   openGraph: {
-    title: "JSExec - JavaScript & TypeScript Playground",
+    title: "WizardJS - JavaScript & TypeScript Playground",
     description: "Open source alternative to RunJS with Monaco Editor and real-time execution",
-    url: "https://jsexec.dev",
-    siteName: "JSExec",
+    url: "https://wizardjs.dev",
+    siteName: "WizardJS",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "JSExec - JavaScript & TypeScript Playground",
+    title: "WizardJS - JavaScript & TypeScript Playground",
     description: "Open source alternative to RunJS with Monaco Editor and real-time execution",
   },
 };

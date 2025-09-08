@@ -1,1 +1,1 @@
-# JSExec Landing Page
+# WizardJS Landing Page
