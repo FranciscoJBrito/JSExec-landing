@@ -1,6 +1,10 @@
 import { ElectronIcon, IconApple, LinuxIcon, TypeScriptIcon, ViteJsIcon, WindowsIcon } from "@/assets/icons";
 import { FilePenLine, FolderOpen, GithubIcon, Globe, Lock, Palette, ZapIcon } from "lucide-react";
 import Image from "next/image";
+import { Metadata } from 'next';
+import { homePageMetadata } from './metadata';
+
+export const metadata: Metadata = homePageMetadata;
 
 export default function Home() {
   return (
