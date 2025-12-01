@@ -59,7 +59,7 @@ export default function Home() {
             {/* Version Badge */}
             <div className="inline-flex items-center px-4 py-2 bg-purple-600/20 border border-purple-500/30 rounded-full text-purple-300 text-sm">
               <span className="w-2 h-2 bg-purple-400 rounded-full mr-2"></span>
-              Current Version: v1.0.0
+              Current Version: v1.1.0
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl">
@@ -72,7 +72,7 @@ export default function Home() {
                 <p className="text-blue-200 text-sm mb-6">Intel & Apple Silicon</p>
                 <div className="space-y-3">
                   <a 
-                    href="https://github.com/FranciscoJBrito/WizardJS/releases/download/v1.0.0/WizardJS-darwin-arm64-1.0.0.zip" 
+                    href="https://github.com/FranciscoJBrito/WizardJS/releases/download/v1.1.0/WizardJS-macOS-AppleSilicon.zip" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="block bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-lg text-sm transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105"
@@ -80,12 +80,12 @@ export default function Home() {
                     Apple Silicon (.zip)
                   </a>
                   <a 
-                    href="https://github.com/FranciscoJBrito/WizardJS/releases/download/v1.0.0/WizardJS.dmg" 
+                    href="https://github.com/FranciscoJBrito/WizardJS/releases/download/v1.1.0/WizardJS-macOS-Intel.zip" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="block bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-lg text-sm transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105"
                   >
-                    Intel (.dmg)
+                    Intel (.zip)
                   </a>
                 </div>
               </div>
@@ -98,7 +98,7 @@ export default function Home() {
                 <h3 className="text-white font-semibold mb-2 text-lg">Windows</h3>
                 <p className="text-blue-200 text-sm mb-6">Windows 10/11</p>
                 <a 
-                  href="https://github.com/FranciscoJBrito/WizardJS/releases/download/v1.0.0/WizardJS-Setup-1.0.0.exe" 
+                  href="https://github.com/FranciscoJBrito/WizardJS/releases/download/v1.1.0/WizardJS-Setup-1.1.0.exe" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="block bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-lg text-sm transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105"
@@ -116,7 +116,7 @@ export default function Home() {
                 <p className="text-blue-200 text-sm mb-6">Debian/Ubuntu & RPM</p>
                 <div className="space-y-3">
                   <a 
-                    href="https://github.com/FranciscoJBrito/WizardJS/releases/download/v1.0.0/wizardjs_1.0.0_amd64.deb" 
+                    href="https://github.com/FranciscoJBrito/WizardJS/releases/download/v1.1.0/wizardjs_1.1.0_amd64.deb" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="block bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-lg text-sm transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105"
@@ -124,7 +124,7 @@ export default function Home() {
                     Debian (.deb)
                   </a>
                   <a 
-                    href="https://github.com/FranciscoJBrito/WizardJS/releases/download/v1.0.0/wizardjs-1.0.0-1.x86_64.rpm" 
+                    href="https://github.com/FranciscoJBrito/WizardJS/releases/download/v1.1.0/wizardjs-1.1.0-1.x86_64.rpm" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="block bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-lg text-sm transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105"
@@ -159,7 +159,7 @@ export default function Home() {
                 Star on GitHub
               </a>
               <a 
-                href="https://github.com/FranciscoJBrito/WizardJS/releases/tag/v1.0.0" 
+                href="https://github.com/FranciscoJBrito/WizardJS/releases/tag/v1.1.0" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors text-sm underline"
@@ -333,7 +333,7 @@ export default function Home() {
           
           <div className="border-t border-gray-700 mt-8 pt-8 text-center">
             <p className="text-gray-400">
-              © 2024 WizardJS. Made with ❤️ by <a href="https://github.com/FranciscoJBrito" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-300 transition-colors">Francisco Brito</a>
+              © 2025 WizardJS. Made with ❤️ by <a href="https://github.com/FranciscoJBrito" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-300 transition-colors">Francisco Brito</a>
             </p>
           </div>
         </div>
