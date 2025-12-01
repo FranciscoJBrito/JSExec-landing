@@ -37,13 +37,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "WizardJS - The Ultimate JavaScript & TypeScript Playground",
     description: "Open source alternative to RunJS. Complete JavaScript and TypeScript playground with Monaco Editor, real-time execution, and advanced features. Download for macOS, Windows, and Linux.",
-    url: "https://wizardjs.dev",
+    url: "https://wizardjs.com",
     siteName: "WizardJS",
     type: "website",
     locale: "en_US",
     images: [
       {
-        url: "https://wizardjs.dev/og-image.png",
+        url: "https://wizardjs.com/og-image.png",
         width: 1200,
         height: 630,
         alt: "WizardJS - JavaScript & TypeScript Playground",
@@ -55,13 +55,13 @@ export const metadata: Metadata = {
     title: "WizardJS - The Ultimate JavaScript & TypeScript Playground",
     description: "Open source alternative to RunJS. Complete JavaScript and TypeScript playground with Monaco Editor, real-time execution, and advanced features.",
     creator: "@FranciscoJBrito",
-    images: ["https://wizardjs.dev/og-image.png"],
+    images: ["https://wizardjs.com/og-image.png"],
   },
   verification: {
     google: "your-google-verification-code",
   },
   alternates: {
-    canonical: "https://wizardjs.dev",
+    canonical: "https://wizardjs.com",
   },
   category: "Technology",
 };
@@ -76,7 +76,7 @@ export default function RootLayout({
     "@type": "SoftwareApplication",
     "name": "WizardJS",
     "description": "Open source alternative to RunJS. Complete JavaScript and TypeScript playground with Monaco Editor, real-time execution, and advanced features.",
-    "url": "https://wizardjs.dev",
+    "url": "https://wizardjs.com",
     "applicationCategory": "DeveloperApplication",
     "operatingSystem": ["macOS", "Windows", "Linux"],
     "offers": {
@@ -94,7 +94,7 @@ export default function RootLayout({
       "name": "Francisco Brito"
     },
     "downloadUrl": "https://github.com/FranciscoJBrito/WizardJS/releases",
-    "screenshot": "https://wizardjs.dev/og-image.png",
+    "screenshot": "https://wizardjs.com/og-image.png",
     "featureList": [
       "JavaScript and TypeScript support",
       "Monaco Editor integration",

@@ -1,33 +1,21 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://wizardjs.dev'
-  const currentDate = new Date().toISOString()
+  const baseUrl = 'https://wizardjs.com'
 
   return [
     {
       url: baseUrl,
-      lastModified: currentDate,
+      lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1,
     },
-    {
-      url: `${baseUrl}/#features`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/#tech`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/#download`,
-      lastModified: currentDate,
-      changeFrequency: 'weekly',
-      priority: 0.9,
-    },
+    // Agrega aquí más páginas cuando las crees, por ejemplo:
+    // {
+    //   url: `${baseUrl}/docs`,
+    //   lastModified: new Date(),
+    //   changeFrequency: 'monthly',
+    //   priority: 0.8,
+    // },
   ]
 }

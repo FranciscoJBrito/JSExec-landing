@@ -1,5 +1,5 @@
 # Robots.txt for WizardJS
-# https://wizardjs.dev/robots.txt
+# https://wizardjs.com/robots.txt
 
 User-agent: *
 Allow: /
@@ -15,7 +15,7 @@ Allow: /
 Allow: /sitemap.xml
 
 # Sitemap location
-Sitemap: https://wizardjs.dev/sitemap.xml
+Sitemap: https://wizardjs.com/sitemap.xml
 
 # Crawl delay (optional, helps with server load)
 Crawl-delay: 1

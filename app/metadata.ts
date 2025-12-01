@@ -24,10 +24,10 @@ export const homePageMetadata: Metadata = {
     title: 'WizardJS - Download the Ultimate JavaScript & TypeScript Playground',
     description: 'Free open source alternative to RunJS. Download WizardJS for macOS, Windows, and Linux. Complete JavaScript and TypeScript playground with Monaco Editor.',
     type: 'website',
-    url: 'https://wizardjs.dev',
+    url: 'https://wizardjs.com',
     images: [
       {
-        url: 'https://wizardjs.dev/og-image.png',
+        url: 'https://wizardjs.com/og-image.png',
         width: 1200,
         height: 630,
         alt: 'WizardJS - JavaScript & TypeScript Playground Download',
@@ -38,7 +38,7 @@ export const homePageMetadata: Metadata = {
     card: 'summary_large_image',
     title: 'WizardJS - Download the Ultimate JavaScript & TypeScript Playground',
     description: 'Free open source alternative to RunJS. Download for macOS, Windows, and Linux.',
-    images: ['https://wizardjs.dev/og-image.png'],
+    images: ['https://wizardjs.com/og-image.png'],
   },
 }
 
